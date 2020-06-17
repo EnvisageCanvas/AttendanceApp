@@ -1,0 +1,19 @@
+$font-global: Helvetica, Arial, sans-serif;
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: $font-global;
+    font-size: $m-size;
+    margin: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor: default;
+}
